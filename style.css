@@ -147,11 +147,11 @@ h1, h2, h3, h4 {
 }
 
 .hero-portrait {
-  width: 280px;
-  height: 280px;
-  border-radius: 50%;
+  width: 240px;
+  height: 310px;
+  border-radius: var(--radius);
   object-fit: cover;
-  object-position: center 15%;
+  object-position: center top;
   border: 3px solid var(--color-border);
   box-shadow: 0 0 40px rgba(59,130,246,.12);
 }
@@ -533,7 +533,7 @@ h1, h2, h3, h4 {
 
   .hero-portrait {
     width: 180px;
-    height: 180px;
+    height: 232px;
   }
 
   .hero h1 { font-size: 2rem; }
@@ -553,7 +553,7 @@ h1, h2, h3, h4 {
 /* Small mobile */
 @media (max-width: 480px) {
   .hero h1 { font-size: 1.65rem; }
-  .hero-portrait { width: 150px; height: 150px; }
+  .hero-portrait { width: 150px; height: 194px; }
   .highlight-row { flex-direction: column; }
   .section-title { font-size: 1.3rem; }
 }
